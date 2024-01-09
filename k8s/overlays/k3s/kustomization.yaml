@@ -1,3 +1,6 @@
+namespace: thisisarandomname 
+resources:
+  - namespace.yaml
 configMapGenerator:
 - name: example-configmap-1
   files:
